@@ -1,0 +1,23 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Woo Wung Lai"
+category = "osint"
+description = "It appears as though Jessie the Stegosaurs has been dino-napped! The villanous cur in question has left us with a photo of poor sweet Jessie, hinting at their next location. However, we couldn't find them ourselves. Please help us find our poor Jessie!\n\nFlag format: YCEP24{Place_Name} (Add underscores for space. Case sensitive.) E.g. If the location is \"China Park\", the flag is YCEP24{China_Park}. "
+difficulty = "medium"
+name = "The Dino-napping of Jessie"
+files = ["dist\\location.jpg"]
+
+[challenge.extras]
+discord = "b0hlia0_th3_j3st3r"
+
+[[challenge.flags]]
+flag = "YCEP24{Shibuya_Scramble_Crossing}"
+
+[[challenge.hints]]
+cost = 100
+content = "We caught a snippet of conversation between the Dino-napper and his client! Something about a hex?"

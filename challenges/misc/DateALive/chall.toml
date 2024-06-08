@@ -1,0 +1,30 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Mah Wen Qiang"
+category = "misc"
+description = "Can you retrieve the confidential flag.txt from my VERY SECURE system?\nHere is your credential: ycep24:ycep24\nFlag located at /root/flag.txt"
+difficulty = "easy"
+name = "DateALive"
+
+[challenge.extras]
+discord = "kiraishagaming"
+
+[[challenge.flags]]
+flag = "YCEP24{D4te_c4n_b3_al1ve_s0met1me}"
+
+[[challenge.hints]]
+cost = 50
+content = "What file that is Owned by root with SUID bit set?"
+
+[[challenge.services]]
+name = "datealive"
+path = "service\\DateALive"
+port = 2222
+type = "ssh"
+
+[challenge.services.extras]

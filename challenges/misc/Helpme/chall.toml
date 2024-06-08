@@ -1,0 +1,27 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Mah Wen Qiang"
+category = "misc"
+description = "I accidentally dropped the flag in the Python help() function! Can you help me to retrieve the flag?\nTake a look at the source code for more details"
+difficulty = "medium"
+name = "Helpme"
+files = ["dist/dist.zip"]
+
+[challenge.extras]
+discord = "kiraishagaming"
+
+[[challenge.flags]]
+flag = "YCEP24{L3s$_c4n_b3_m0r3_msda22a4}"
+
+[[challenge.services]]
+name = "helpme"
+path = "service/helpme"
+port = 1337
+type = "ssh"
+
+[challenge.services.extras]

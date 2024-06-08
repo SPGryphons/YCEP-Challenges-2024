@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Low Yao Wen"
+category = "forensics"
+description = "I was given an image of sushi, the owner said that he would give me free sushi if I am able to solve this. However, I am unable to find anything abnormal about this image, can you help me out?"
+difficulty = "easy"
+name = "Free Sushi"
+files = ["dist/Sushi.jpeg"]
+
+[challenge.extras]
+discord = "Potassium #7933"
+
+[[challenge.flags]]
+flag = "YCEP24{J4p4n3se_Cu1sin3s_Ar3_Th3_Best}"
+case_sensitive = false
+
+[[challenge.hints]]
+cost = 50
+content = "What is metadata?"

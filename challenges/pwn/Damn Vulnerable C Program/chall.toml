@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Low Yao Wen"
+category = "pwn"
+description = "A newbie program developer has just created a C program for testing purposes, little did he know that this program is vulnerable and will leak the flag if exploited. Do note that the flag provided in the source file (vuln.c) \"YCEP23{REDACTED}\" is not the actual flag"
+difficulty = "hard"
+name = "Damn Vulnerable C Program"
+files = ["dist/vuln", "dist/vuln.c"]
+
+[challenge.extras]
+discord = "Potassium#7933"
+
+[[challenge.flags]]
+flag = "YCEP24{S1mpl3_Pwn_Ch4ll3nge_H4s_B33n_Pwn3d}"
+case_sensitive = false
+
+[[challenge.hints]]
+cost = 50
+content = "What is Buffer Overflow?"

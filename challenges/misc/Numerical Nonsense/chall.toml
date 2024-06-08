@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Yap Ming Yang Ryan"
+category = "misc"
+description = "Your younger sibling rushes into your room in a frenzy. They're in a panic, explaining that their coding homework is due tommorow and they haven't been listening in class. Stumped by the messy numbers, your younger sibling requests your help to sum the 2000 numbers up."
+difficulty = "easy"
+name = "Numerical Nonsense"
+files = ["C:\\Users\\Ryan\\Desktop\\Numerical Nonsense\\dist\\numbers.in"]
+
+[challenge.extras]
+discord = "ryan8158"
+
+[[challenge.flags]]
+flag = "YCEP24{165014}"
+case_sensitive = false
+
+[[challenge.hints]]
+cost = 100
+content = "Use a python script, to read the list of integers from the file named \"numbers.in\" and use in-built python functions to clean up the messy numbers."

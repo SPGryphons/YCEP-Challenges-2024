@@ -1,0 +1,1 @@
+Players may use online tools to decode the letter hidden in each image, such as https://stylesuxx.github.io/steganography/. The flag is YCEP24{SteGaNofLaGs}

@@ -1,0 +1,3 @@
+Solution
+- Use exiftool or view properties to see comment "password is 'ilikesteghide'"
+- Use steghide to extract flag from woof.jpg using the password (ilikesteghide)

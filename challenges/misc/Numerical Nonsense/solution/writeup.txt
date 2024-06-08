@@ -1,0 +1,17 @@
+Using a python script, the 2000 numbers are summed. 
+
+
+[challenge details]
+The 2000 numbers are separated by the same delimiter "!@#", and some numbers are wrapped with quotation marks ("") while others are not.
+
+
+[details of the python script used to solve]
+Firstly, in the script, read the input from the challenge file called "numbers.in" that's in the current working directory as the script file. The contents of the file are read and stored in a variable called "dump".
+
+Secondly, clean up the messy number data stored in "dump". Use the .replace() function to replace all quotation marks with a blank space. Then, use the .split() function in python to separate the 2000 numbers into a list. 
+
+Thirdly, write the output sum of the numbers into a separate file "numbers.out".
+
+
+[the flag]
+The flag obtained is the sum of the numbers, which is YCEP24{165014}.

@@ -1,0 +1,19 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Rowhith"
+category = "forensics"
+description = "What is the name of this dinosaur? Was it steganosaurus or stegosauras, please help me :("
+difficulty = "easy"
+name = "Dinosaurs!!!"
+files = ["dist\\dinasours.zip"]
+
+[challenge.extras]
+discord = "astrowmist"
+
+[[challenge.flags]]
+flag = "YCEP24{It3_St3gan0s2u61s}"

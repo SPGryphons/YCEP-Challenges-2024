@@ -1,0 +1,40 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Low Yao Wen"
+category = "crypto"
+description = "I have chosen a very \"fair\" cipher for this challenge, and the keyword for this cipher is \"CRYPTO\". I hope you find the challenge as \"fair\" as I do.\nDo remember to include the flag format YCEP24{} before submitting your flag. For example if \"ThisIsASampleFlag\" is the flag, the correct format should be YCEP24{This_Is_A_Sample_Flag}"
+difficulty = "medium"
+name = "Fair Play Please"
+files = ["dist/FairPlay.txt"]
+
+[challenge.extras]
+discord = "Potassium#7933"
+
+[[challenge.flags]]
+flag = "YCEP24{Fair_Play_Is_Important}"
+case_sensitive = false
+
+[[challenge.hints]]
+cost = 50
+content = "Playfair Cipher"
+
+[[challenge.hints]]
+cost = 50
+content = "How does the keyword affect the arrangement of the grid"
+
+[[challenge.hints]]
+cost = 50
+content = "Each letter should only be used once in the grid, it should not be repeated"
+
+[[challenge.hints]]
+cost = 0
+content = "The letter \"J\" is excluded from the grid"
+
+[[challenge.hints]]
+cost = 0
+content = "The last character \"X\" of the decrypted cipher (plaintext) is not part of the flag"

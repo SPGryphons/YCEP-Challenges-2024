@@ -1,0 +1,44 @@
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url("https://s.yimg.com/ny/api/res/1.2/EYLigenjRo2PYP.QzAySRw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTExOTc7Y2Y9d2VicA--/https://media.zenfs.com/en/usa_today_news_641/7ac61114d64bdebc453f4ad361becff8");
+}
+#navbar {
+    background-color: #000000;
+    display: inline-block;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.navlink {
+    float: right;
+    text-align: center;
+    padding: 0.8em 0.6em;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #000000;
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+}
+.navlink:disabled {
+    background-color: #000000;
+    cursor: not-allowed;
+}
+.navlink:hover {
+    color: #3370d9;
+    background-color: #f2f2f2;
+}
+.text {
+    text-align: center;
+}
+#topheader {
+    padding-top: 5em;
+    text-align: center;
+}

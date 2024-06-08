@@ -1,0 +1,29 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Low Yao Wen"
+category = "crypto"
+description = "You are a cryptanalyst working in World War 2, and trying to recover the plaintext that was encrypted by Enigma. However, the enemy accidentally left their encryption details."
+difficulty = "medium"
+name = "The fall of enigma"
+files = ["dist/Enigma.txt"]
+
+[challenge.extras]
+discord = "Potassium#7933"
+
+[[challenge.flags]]
+flag = "YCEP24{Y0u_H4v3_Br0k3n_Th3_En1gm4_Alg0r1thm}"
+case_sensitive = false
+
+[[challenge.hints]]
+cost = 50
+content = "II = Left, III = Middle, IV = Right"
+
+[[challenge.hints]]
+cost = 50
+content = "A and B = Left, C and D = Middle, E and F = Right"
+requirements = [0]

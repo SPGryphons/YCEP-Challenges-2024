@@ -1,0 +1,19 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Settipalli Venkata Krishna"
+category = "osint"
+description = "Your internet connection has suddenly shut off, but you need to get to a location. Thankfully, your friend has sent you a picture before your internet was lost. You must find out the name of the road that the picture was taken from. The format of the flag is  YCEP2024{Example_Rd}.\n\u0004"
+difficulty = "easy"
+name = "Finding the location"
+files = ["dist\\YCEP_location_challenge.jpg"]
+
+[challenge.extras]
+discord = "the_gold_graduate"
+
+[[challenge.flags]]
+flag = "YCEP24{Orchard_Rd}"

@@ -1,0 +1,22 @@
+version = "0.1"
+
+[challenge]
+author = "Seng Hong"
+category = "web"
+description = "There are 3 parts to this, you just gotta piece them together."
+difficulty = "easy"
+name = "3 pieces"
+
+[challenge.extras]
+discord = "pendragonscode"
+
+[[challenge.flags]]
+flag = "YCEP24{thr33_8linD_M1C3}"
+
+[[challenge.services]]
+name = "3-pieces"
+path = "service\\3-pieces"
+port = 3000
+type = "web"
+
+[challenge.services.extras]

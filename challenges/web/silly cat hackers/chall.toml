@@ -1,0 +1,31 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Goh Hong Wei"
+category = "web"
+description = "Oh noes! A group of hackers have taken over my website and removed my admin access! Can you help me hack back into m\ny website to take back control?"
+difficulty = "easy"
+name = "silly cat hackers"
+
+[challenge.extras]
+discord = "wob0422"
+
+[[challenge.flags]]
+flag = "YCEP24{n07_7h47_51lly_4nym0r3}"
+case_sensitive = false
+
+[[challenge.hints]]
+cost = 10
+content = "Inspect element may be helpful..."
+
+[[challenge.services]]
+name = "silly_cat"
+path = "service\\app"
+port = 10337
+type = "web"
+
+[challenge.services.extras]
