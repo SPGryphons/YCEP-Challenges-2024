@@ -1,0 +1,5 @@
+services:
+  rop_the_night_away:
+    container_name: rop_the_night_away
+    build: rop_the_night_away
+    privileged: true

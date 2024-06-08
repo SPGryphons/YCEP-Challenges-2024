@@ -1,0 +1,6 @@
+services:
+  baby_heap:
+    container_name: baby_heap
+    build: baby_heap
+    privileged: true
+        

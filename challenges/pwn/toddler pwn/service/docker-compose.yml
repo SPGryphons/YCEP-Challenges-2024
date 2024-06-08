@@ -1,0 +1,5 @@
+services:
+  toddler_pwn:
+    container_name: toddler_pwn
+    build: toddler_pwn
+    privileged: true

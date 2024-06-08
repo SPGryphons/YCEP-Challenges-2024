@@ -1,0 +1,6 @@
+services:
+  ats_v2:
+    container_name: ats_v2
+    build: ats_v2
+    privileged: true
+  

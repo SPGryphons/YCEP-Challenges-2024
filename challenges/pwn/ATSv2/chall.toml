@@ -1,0 +1,28 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "gatari"
+category = "pwn"
+description = "I found a binary that seems to be related to Singapore Polytechnic's Attendance Tracking System (ATS) that tracks students' attendance, I wonder if it's vulnerable; maybe then I wouldn't have to come for 8 AM lectures anymore!"
+difficulty = "medium"
+name = "ATSv2"
+files = ["dist/ATSv2.zip", "dist/vuln.c"]
+
+[challenge.extras]
+discord = "gatari"
+
+[[challenge.flags]]
+flag = "YCEP24{!_H@T3_8_@m_13CTUrEs_3fe6aff2b984d27f08a5d7fb3fd18112}"
+case_sensitive = false
+
+[[challenge.services]]
+name = "ats_v2"
+path = "service/ats_v2"
+port = 5000
+type = "nc"
+
+[challenge.services.extras]

@@ -9,12 +9,12 @@ This directory contains all challenges.
 | Crypto | 4 | 3 | 0 | 0 | 7 |
 | Misc | 4 | 2 | 0 | 0 | 6 |
 | Re | 1 | 1 | 0 | 0 | 2 |
-| Pwn | 0 | 0 | 1 | 0 | 1 |
+| Pwn | 2 | 2 | 1 | 1 | 6 |
 | Osint | 2 | 1 | 0 | 0 | 3 |
-| Total | 21 | 12 | 1 | 0 | 34 |
+| Total | 23 | 14 | 1 | 1 | 39 |
 
 
-## Challenges (34 total)
+## Challenges (39 total)
 | Name | Description | Category | Difficulty | Author |
 | ---- | ----------- | -------- | ---------- | ------ |
 | [3 pieces](<./web/3 pieces>) | There are 3 parts to... | Web | Easy | Seng Hong |
@@ -47,7 +47,12 @@ This directory contains all challenges.
 | [Very Simple Python](<./misc/Very Simple Python>) | I created a simple p... | Misc | Easy | Low Yao Wen |
 | [Flag vault](<./re/Flag vault>) | I have hidden the fl... | Re | Medium | Low Yao Wen |
 | [Rev Code](<./re/Rev Code>) | A careless cryptogra... | Re | Easy | Mah Wen Qiang |
-| [Damn Vulnerable C Program](<./pwn/Damn Vulnerable C Program>) | A newbie program dev... | Pwn | Hard | Low Yao Wen |
+| [ATSv2](<./pwn/ATSv2>) | I found a binary tha... | Pwn | Medium | gatari |
+| [baby heap](<./pwn/baby heap>) | if the stack is so s... | Pwn | Hard | gatari |
+| [infant pwn](<./pwn/infant pwn>) | I'm tired of being a... | Pwn | Easy | gatari |
+| [Rop the Night Away](<./pwn/Rop the Night Away>) | i heard that if you'... | Pwn | Insane | gatari |
+| [Shopkeeper](<./pwn/Shopkeeper>) | I love my shop! | Pwn | Easy | duck |
+| [toddler pwn](<./pwn/toddler pwn>) | Ever since our ATS s... | Pwn | Medium | gatari |
 | [A mysterious person](<./osint/A mysterious person>) | I do enjoy watching ... | Osint | Easy | Low Yao Wen |
 | [Finding the location](<./osint/Finding the location>) | Your internet connec... | Osint | Easy | Settipalli Venkata Krishna |
 | [The Dino-napping of Jessie](<./osint/The Dino-napping of Jessie>) | It appears as though... | Osint | Medium | Woo Wung Lai |

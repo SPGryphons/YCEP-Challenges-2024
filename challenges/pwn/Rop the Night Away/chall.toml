@@ -1,0 +1,28 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "gatari"
+category = "pwn"
+description = "i heard that if you're able to leak a function from libc, you can ret2libc~"
+difficulty = "insane"
+name = "Rop the Night Away"
+files = ["dist/ld-linux-x86-64.so.2", "dist/libc.so.6", "dist/rop_the_night_away.zip", "dist/vuln.c"]
+
+[challenge.extras]
+discord = "gatari"
+
+[[challenge.flags]]
+flag = "YCEP24{roP_7hE_N!6HT_Aw@Y_30f9b33fc4087aea8ffeff202003e91c}"
+case_sensitive = false
+
+[[challenge.services]]
+name = "rop_the_night_away"
+path = "service/rop_the_night_away"
+port = 5000
+type = "nc"
+
+[challenge.services.extras]
