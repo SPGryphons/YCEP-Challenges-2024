@@ -20,4 +20,4 @@ None
 ## Services
 | Service | Port | Type |
 | ------- | ---- | ---- |
-| [`silly_cat`](service\app) | 10337 | web |
+| [`silly_cat`](service\app) | 1337 | web |

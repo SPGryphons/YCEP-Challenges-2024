@@ -25,7 +25,7 @@ content = "Inspect element may be helpful..."
 [[challenge.services]]
 name = "silly_cat"
 path = "service\\app"
-port = 10337
+port = 1337
 type = "web"
 
 [challenge.services.extras]
