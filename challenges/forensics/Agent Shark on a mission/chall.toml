@@ -6,7 +6,7 @@ version = "0.1"
 
 [challenge]
 author = "Low Yao Wen"
-category = "misc"
+category = "forensics"
 description = "Agent Shark intercepted a network packet and sent it to me. What I heard him said was \"Wireshark doo doo doo doo...\", I wonder what is he trying to say?"
 difficulty = "easy"
 name = "Agent Shark on a mission"
