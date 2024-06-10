@@ -8,13 +8,13 @@ This directory contains all challenges.
 | Forensics | 4 | 3 | 0 | 0 | 7 |
 | Crypto | 4 | 3 | 0 | 0 | 7 |
 | Misc | 4 | 2 | 0 | 0 | 6 |
-| Re | 1 | 1 | 0 | 0 | 2 |
+| Re | 1 | 1 | 0 | 1 | 3 |
 | Pwn | 2 | 2 | 1 | 1 | 6 |
 | Osint | 2 | 1 | 0 | 0 | 3 |
-| Total | 23 | 14 | 1 | 1 | 39 |
+| Total | 23 | 14 | 1 | 2 | 40 |
 
 
-## Challenges (39 total)
+## Challenges (40 total)
 | Name | Description | Category | Difficulty | Author |
 | ---- | ----------- | -------- | ---------- | ------ |
 | [3 pieces](<./web/3 pieces>) | There are 3 parts to... | Web | Easy | Seng Hong |
@@ -46,6 +46,7 @@ This directory contains all challenges.
 | [Numerical Nonsense](<./misc/Numerical Nonsense>) | Your younger sibling... | Misc | Easy | Yap Ming Yang Ryan |
 | [Very Simple Python](<./misc/Very Simple Python>) | I created a simple p... | Misc | Easy | Low Yao Wen |
 | [Flag vault](<./re/Flag vault>) | I have hidden the fl... | Re | Medium | Low Yao Wen |
+| [Pearly Whites](<./re/Pearly Whites>) | I found an old progr... | Re | Insane | duck |
 | [Rev Code](<./re/Rev Code>) | A careless cryptogra... | Re | Easy | Mah Wen Qiang |
 | [ATSv2](<./pwn/ATSv2>) | I found a binary tha... | Pwn | Medium | gatari |
 | [baby heap](<./pwn/baby heap>) | if the stack is so s... | Pwn | Hard | gatari |
