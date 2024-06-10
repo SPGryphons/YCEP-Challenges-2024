@@ -3,7 +3,7 @@ Agent Shark intercepted a network packet and sent it to me. What I heard him sai
 
 ## Summary
 - **Author:** Low Yao Wen
-- **Category:** misc
+- **Category:** forensics
 - **Difficulty:** easy
 - **Discord:** Potassium#7933
 

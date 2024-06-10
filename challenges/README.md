@@ -5,16 +5,16 @@ This directory contains all challenges.
 | Category | Easy | Medium | Hard | Insane | Total |
 | -------- |:----:|:------:|:----:|:------:|:-----:|
 | Web | 6 | 2 | 0 | 0 | 8 |
-| Forensics | 4 | 3 | 0 | 0 | 7 |
+| Forensics | 5 | 3 | 0 | 0 | 8 |
 | Crypto | 4 | 3 | 0 | 0 | 7 |
-| Misc | 4 | 2 | 0 | 0 | 6 |
+| Misc | 5 | 3 | 0 | 0 | 8 |
 | Re | 1 | 1 | 0 | 1 | 3 |
 | Pwn | 2 | 2 | 1 | 1 | 6 |
 | Osint | 2 | 1 | 0 | 0 | 3 |
-| Total | 23 | 14 | 1 | 2 | 40 |
+| Total | 25 | 15 | 1 | 2 | 43 |
 
 
-## Challenges (40 total)
+## Challenges (43 total)
 | Name | Description | Category | Difficulty | Author |
 | ---- | ----------- | -------- | ---------- | ------ |
 | [3 pieces](<./web/3 pieces>) | There are 3 parts to... | Web | Easy | Seng Hong |
@@ -25,6 +25,7 @@ This directory contains all challenges.
 | [silly cat hackers](<./web/silly cat hackers>) | Oh noes! A group of ... | Web | Easy | Goh Hong Wei |
 | [TestPage](<./web/TestPage>) | Welcome to TestPage,... | Web | Easy | Mah Wen Qiang |
 | [Web_Vulnerability](<./web/Web_Vulnerability>) | Exploit and retrieve... | Web | Medium | ReanSchwarzer#9029 |
+| [Agent Shark on a mission](<./forensics/Agent Shark on a mission>) | Agent Shark intercep... | Forensics | Easy | Low Yao Wen |
 | [Digital Breadcrumbs](<./forensics/Digital Breadcrumbs>) | Follow a trail of hi... | Forensics | Medium | Mah Wen Qiang |
 | [Dinosaurs!!!](<./forensics/Dinosaurs>) | What is the name of ... | Forensics | Easy | Rowhith |
 | [Finding Treats](<./forensics/Finding Treats>) | I've hidden a treat ... | Forensics | Medium | Elvin |
@@ -39,9 +40,11 @@ This directory contains all challenges.
 | [Simple_Crypto](<./crypto/Simple_Crypto>) | Retrieve the flag by... | Crypto | Medium | ReanSchwarzer#9029 |
 | [The fall of enigma](<./crypto/The fall of enigma>) | You are a cryptanaly... | Crypto | Medium | Low Yao Wen |
 | [Unknown Cipher](<./crypto/Unknown Cipher>) | I found this message... | Crypto | Easy | Low Yao Wen |
-| [Agent Shark on a mission](<./misc/Agent Shark on a mission>) | Agent Shark intercep... | Misc | Easy | Low Yao Wen |
 | [DateALive](<./misc/DateALive>) | Can you retrieve the... | Misc | Easy | Mah Wen Qiang |
 | [Helpme](<./misc/Helpme>) | I accidentally dropp... | Misc | Medium | Mah Wen Qiang |
+| [Needle in a Haystack 1](<./misc/Needle in a Haystack 1>) | Find the flag hidden... | Misc | Easy | Bryan |
+| [Needle in a Haystack 2](<./misc/Needle in a Haystack 2>) | Let's see how you fi... | Misc | Easy | Bryan |
+| [Needle in a Haystack 3](<./misc/Needle in a Haystack 3>) | The haystack just ge... | Misc | Medium | Bryan |
 | [Non-English Programming](<./misc/Non-English Programming>) | My friend has decide... | Misc | Medium | Low Yao Wen |
 | [Numerical Nonsense](<./misc/Numerical Nonsense>) | Your younger sibling... | Misc | Easy | Yap Ming Yang Ryan |
 | [Very Simple Python](<./misc/Very Simple Python>) | I created a simple p... | Misc | Easy | Low Yao Wen |

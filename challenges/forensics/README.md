@@ -4,15 +4,16 @@ This directory contains challenges related to Forensics.
 ## Difficulty Distribution
 | Difficulty | Number of Challenges |
 | ---------- |:--------------------:|
-| Easy | 4 |
+| Easy | 5 |
 | Medium | 3 |
 | Hard | 0 |
 | Insane | 0 |
-| Total | 7 |
+| Total | 8 |
 
-## Challenges (7 total)
+## Challenges (8 total)
 | Name | Description | Difficulty | Author |
 | ---- | ----------- | ---------- | ------ |
+| [Agent Shark on a mission](<./Agent Shark on a mission>) | Agent Shark intercep... | Easy | Low Yao Wen |
 | [Digital Breadcrumbs](<./Digital Breadcrumbs>) | Follow a trail of hi... | Medium | Mah Wen Qiang |
 | [Dinosaurs!!!](<./Dinosaurs>) | What is the name of ... | Easy | Rowhith |
 | [Finding Treats](<./Finding Treats>) | I've hidden a treat ... | Medium | Elvin |
