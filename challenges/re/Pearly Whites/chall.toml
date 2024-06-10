@@ -1,0 +1,19 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "duck"
+category = "re"
+description = "I found an old program that has an login, help me find the password!\n\nFlag is password of `root` user."
+difficulty = "insane"
+name = "Pearly Whites"
+files = ["dist/dist.zip"]
+
+[challenge.extras]
+discord = "duckupus"
+
+[[challenge.flags]]
+flag = "YCEP24{p3rl_r3vers1ng_g0_BrRrR}"
