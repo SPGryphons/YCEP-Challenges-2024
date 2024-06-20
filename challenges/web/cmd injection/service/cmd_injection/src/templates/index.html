@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Command Injection Test</title>
+    <script>
+        function submitCommand() {
+            const userInput = document.getElementById('userInput').value;
+            const target = `/cmd`;
+            const data = `cmd=${encodeURIComponent(userInput)}`;
+
+            fetch(target, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: data
+            })
+            .then(response => {
+                if (!response.ok && response.status === 400) {
+                    alert('Not that Easy! Try Harder!');
+                }
+                return response.text();
+            })
+            .then(data => {
+                if (data) {
+                    document.getElementById('result').innerText = data;
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+</head>
+<body>
+    <h1>Command Injection Test</h1>
+    <p>Type a command and see the result. Try injecting commands.</p>
+    <input type="text" id="userInput" placeholder="Enter your command" />
+    <button onclick="submitCommand()">Submit</button>
+    <div id="result"></div>
+</body>
+</html>

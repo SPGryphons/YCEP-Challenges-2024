@@ -1,0 +1,18 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Mah Wen Qiang"
+category = "osint"
+description = "A hacker has been taunting the cybersecurity community with cryptic clues about their next target. We've managed to intercept a cryptic message suggesting the document's location, somewhere on the web.\n\n\"/d/143hKqSdb6jnM6ZGb58VBff4dnXDvKa9PTTm4WcPO-sk/edit?usp=sharing\"\n\nYour mission: Dive into the depths of the forum, analyze t=hacker's posts, decipher their hidden messages, and predict their next move."
+difficulty = "hard"
+name = "Digital Shadow"
+
+[challenge.extras]
+discord = "kiraishagaming"
+
+[[challenge.flags]]
+flag = "YCEP24{m1ss10N_13_C0mp1et3D_sh3sh}"

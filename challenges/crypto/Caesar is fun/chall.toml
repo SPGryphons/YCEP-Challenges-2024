@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Kosen Goh"
+category = "crypto"
+description = "You may know Julius Caesar the Roman general who led the Roman armies in the Gallic Wars in Italy. But did you know that there is a cryptography cipher named after him that can help encrypt and decrypt messages? "
+difficulty = "easy"
+name = "Caesar is fun"
+files = ["dist\\encrypted_message.txt"]
+
+[challenge.extras]
+discord = "whatsgoingonnn"
+
+[[challenge.flags]]
+flag = "YCEP24{ca4ser_fUn}"
+case_sensitive = false
+
+[[challenge.hints]]
+cost = 50
+content = "The Caesar cipher shifts each letter by a fixed number of places down the alphabet. In this case, each letter has been shifted by 4 places."

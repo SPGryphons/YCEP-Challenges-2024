@@ -1,0 +1,23 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Mah Wen Qiang"
+category = "forensics"
+description = "A mysterious message has appeared, but it seems like some of the words are fading away. Can you see through and decode the hidden communication? The sender is counting on you!"
+difficulty = "medium"
+name = "Ghostly Greetings"
+files = ["dist\\message.txt"]
+
+[challenge.extras]
+discord = "kiraishagaming"
+
+[[challenge.flags]]
+flag = "YCEP24{h1dd3n_1n_wH1t3_sPaC3_ks83s}"
+
+[[challenge.hints]]
+cost = 50
+content = "Use Sublime Text or VScode. Highlight the whole text will reveal the message"

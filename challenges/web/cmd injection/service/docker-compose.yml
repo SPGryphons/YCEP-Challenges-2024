@@ -1,0 +1,4 @@
+services:
+  cmd_injection:
+    container_name: cmd_injection
+    build: cmd_injection

@@ -1,0 +1,31 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "ReanSchwarzer#9029"
+category = "crypto"
+description = "Retrieve the flag by decrypting the encrypted key provided by the server and using it to unlock the flag."
+difficulty = "medium"
+name = "Simple_Crypto"
+files = ["dist/Simple_Crypto_Challenge.zip"]
+
+[challenge.extras]
+discord = "reanschwarzer_9029"
+
+[[challenge.flags]]
+flag = "YCEP24{Crypt0_1s_4ll_4b0ut_C4lculati0n}"
+
+[[challenge.hints]]
+cost = 50
+content = "Either create a Python script or tools like Postman or Burp Suite"
+
+[[challenge.services]]
+name = "simple_crypto"
+path = "service/server"
+port = 5000
+type = "web"
+
+[challenge.services.extras]

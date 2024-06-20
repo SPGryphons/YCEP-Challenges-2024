@@ -1,0 +1,81 @@
+{
+  "version": "0.1",
+  "mapping": {
+    "3-pieces": {
+      "from_port": 3000,
+      "to_port": 8000
+    },
+    "Are_you_admin": {
+      "from_port": 4000,
+      "to_port": 8001
+    },
+    "buildthepath": {
+      "from_port": 1337,
+      "to_port": 8002
+    },
+    "cmd_injection": {
+      "from_port": 5000,
+      "to_port": 8003
+    },
+    "gimme-cookie": {
+      "from_port": 1337,
+      "to_port": 8004
+    },
+    "gryphons_polytechnic": {
+      "from_port": 5000,
+      "to_port": 8005
+    },
+    "JinjaJinx": {
+      "from_port": 5000,
+      "to_port": 8006
+    },
+    "silly_cat": {
+      "from_port": 1337,
+      "to_port": 8007
+    },
+    "testpage": {
+      "from_port": 80,
+      "to_port": 8008
+    },
+    "simple_crypto": {
+      "from_port": 5000,
+      "to_port": 9000
+    },
+    "datealive": {
+      "from_port": 2222,
+      "to_port": 10000
+    },
+    "gimme-flag": {
+      "from_port": 10003,
+      "to_port": 10001
+    },
+    "helpme": {
+      "from_port": 1337,
+      "to_port": 10002
+    },
+    "ats_v2": {
+      "from_port": 5000,
+      "to_port": 11000
+    },
+    "baby_heap": {
+      "from_port": 5000,
+      "to_port": 11001
+    },
+    "infant_pwn": {
+      "from_port": 5000,
+      "to_port": 11002
+    },
+    "rop_the_night_away": {
+      "from_port": 5000,
+      "to_port": 11003
+    },
+    "shopkeeper": {
+      "from_port": 1337,
+      "to_port": 11004
+    },
+    "toddler_pwn": {
+      "from_port": 5000,
+      "to_port": 11005
+    }
+  }
+}

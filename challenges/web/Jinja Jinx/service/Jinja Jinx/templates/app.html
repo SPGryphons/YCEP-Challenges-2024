@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>YCEP24</title>
+  <style>
+    .jumbotron h1 {
+      color: white;
+      background: black;
+      font-family: monospace;
+      position: absolute;
+      bottom: 20px;
+    }
+
+    textarea {
+      height: 500px;
+      width: 100%;
+      font-family: monospace;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">YCEP24</h1>
+    </div>
+    <div class="row">
+      <div class="col-5">
+        <h5>Challenges</h5>
+        <p><strong>Use this <code>?exploit=</code> param to&hellip;</strong></p>
+      </div>
+      <div class="col-7">
+        <h5>Output Viewer</h5>
+        <textarea class="form-control"
+          readonly>{% if exploit %}{{exploit}}{% else %}Everything seems to be fine here...{% endif %}</textarea>
+      </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Nick"
+category = "crypto"
+description = "WhEREEAReMYKeYsss!!!\n"
+difficulty = "easy"
+name = "Keys to the Kingdom"
+files = ["dist\\numbers.txt"]
+
+[challenge.extras]
+discord = "UltraDuck"
+
+[[challenge.flags]]
+flag = "YCEP24{S0_y0u_h@ve_f0und_a_w@y_t0_n0t_U$e_K3ys}"
+regex = false
+
+[[challenge.hints]]
+cost = 0
+content = "Hmm I wonder what happens when you make n prime in rsa?"

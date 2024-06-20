@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Mah Wen Qiang"
+category = "crypto"
+description = "A strange message has been received, filled with an unusual combination of letters and symbols. It seems like a jumbled mess, but could there be a hidden order to the chaos? Please unravel the secret message."
+difficulty = "easy"
+name = "Binary Babble"
+files = ["dist\\message.txt"]
+
+[challenge.extras]
+discord = "kiraishagaming"
+
+[[challenge.flags]]
+flag = "YCEP24{W3_L0V3_M0RSE_C0D3_MR3NWI6}"
+case_sensitive = false
+
+[[challenge.hints]]
+cost = 50
+content = "Analyze the patterns, decode the symbols, and unravel the secret message."

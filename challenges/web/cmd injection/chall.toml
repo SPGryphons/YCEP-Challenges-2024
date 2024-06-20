@@ -1,0 +1,27 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "reanschwarzer_9029"
+category = "web"
+description = "This is a very simple web cmd injection challenge!"
+difficulty = "insane"
+name = "cmd injection"
+files = ["dist/app.py"]
+
+[challenge.extras]
+discord = "reanschwarzer_9029"
+
+[[challenge.flags]]
+flag = "YCEP24{$UPEr_c0o1_CMD_inJec7!On}"
+
+[[challenge.services]]
+name = "cmd_injection"
+path = "service/cmd_injection"
+port = 5000
+type = "web"
+
+[challenge.services.extras]

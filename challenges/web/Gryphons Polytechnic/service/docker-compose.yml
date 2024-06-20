@@ -1,0 +1,5 @@
+services:
+  gryphons_polytechnic:
+    container_name: gryphons_polytechnic
+    build: gryphons_polytechnic
+    privileged: true

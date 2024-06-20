@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+
+<body>
+    <h1>nice try, but we still removed the logins anyway. You will never regain control!</h1>
+    <!--<form>
+        <input id="username" placeholder="Username" />
+        <input id="password" placeholder="Password" />
+        <button onclick="login()">submit</button>
+    </form>-->
+    <div id="response">
+
+    </div>
+    <script>
+        function login() {
+            let password = document.getElementById("password");
+            let username = document.getElementById("username");
+            if (username.value == 'admin' && password.value == 'HorsesAndCows') {
+                fetch('/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                    },
+                    body: new URLSearchParams({
+                        'username': username.value,
+                        'password': password.value
+                    }),
+                    credentials: 'same-origin',
+                    redirect: 'follow'
+                }).then(response => {
+                    if (response.ok) {
+                        window.location.href = './dashboard';
+                        const respond = document.getElementById("response");
+                        const newText = document.createElement("p");
+                        const node = document.createTextNode("Correct! now go to /dashboard for the flag!");
+                        newText.appendChild(node);
+                        respond.appendChild(newText);
+
+                    } else {
+                        alert('Invalid credentials');
+                    }
+                });
+            } else {
+                alert('Please enter both username and password');
+            }
+        }
+
+    </script>
+</body>
+
+</html>

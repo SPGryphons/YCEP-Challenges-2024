@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Low Yao Wen"
+category = "forensics"
+description = "My 3 year old sister have broke the image file, now I'm unable to view the flag. Can you fix it for me?"
+difficulty = "easy"
+name = "Baby's Corruption"
+files = ["dist/corrupted.png"]
+
+[challenge.extras]
+discord = "Potassium#7933"
+
+[[challenge.flags]]
+flag = "YCEP24{Y0u_F1xed_My_C0rrupt3d_Im4g3}"
+case_sensitive = false
+
+[[challenge.hints]]
+cost = 50
+content = "Broken File Headers"

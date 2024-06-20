@@ -1,0 +1,19 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Mah Wen Qiang"
+category = "forensics"
+description = "Follow a trail of hidden clues, repair corrupted files, and uncover a secret flag concealed within a compromised system."
+difficulty = "hard"
+name = "Digital Breadcrumbs"
+files = ["dist\\Digital Breadcrumbs.zip"]
+
+[challenge.extras]
+discord = "kiraishagaming"
+
+[[challenge.flags]]
+flag = "YCEP24{4ut0m4t10n_1s_7h3_w49_t0_g0_sdfw2ff}"

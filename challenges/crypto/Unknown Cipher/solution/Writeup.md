@@ -1,0 +1,1 @@
+Solution: The key provided for this encryption is "Vigenere", which is the name of the encryption algorithm that was used in this encryption. Search for vigenere decoder online and put in the encrypted message with the key "Vigenere".

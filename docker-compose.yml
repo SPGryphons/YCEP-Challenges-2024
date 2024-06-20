@@ -1,0 +1,226 @@
+networks:
+  threepieces-network: {}
+  areyouadmin-network: {}
+  atsv2-network: {}
+  babyheap-network: {}
+  buildthepath-network: {}
+  cmdinjection-network: {}
+  datealive-network: {}
+  gimmecookie-network: {}
+  gimmeflag-network: {}
+  gryphonspolytechnic-network: {}
+  helpme-network: {}
+  infantpwn-network: {}
+  jinjajinx-network: {}
+  ropthenightaway-network: {}
+  shopkeeper-network: {}
+  sillycathackers-network: {}
+  simplecrypto-network: {}
+  testpage-network: {}
+  toddlerpwn-network: {}
+services:
+  three-pieces:
+    build: challenges/web/3 pieces/service/3-pieces
+    container_name: three-pieces
+    networks:
+    - threepieces-network
+    ports:
+    - 8000:3000
+    profiles:
+    - wave2
+    restart: always
+  are_you_admin:
+    build: challenges/web/Are you admin/service/Are_you_admin
+    container_name: are_you_admin
+    networks:
+    - areyouadmin-network
+    ports:
+    - 8001:4000
+    profiles:
+    - wave1
+    restart: always
+  jinjajinx:
+    build: challenges/web/Jinja Jinx/service/Jinja Jinx
+    container_name: jinjajinx
+    networks:
+    - jinjajinx-network
+    ports:
+    - 8006:5000
+    profiles:
+    - wave1
+    restart: always
+  ats_v2:
+    container_name: ats_v2
+    extends:
+      file: challenges/pwn/ATSv2/service/docker-compose.yml
+      service: ats_v2
+    networks:
+    - atsv2-network
+    ports:
+    - 11000:5000
+    profiles:
+    - wave2
+    restart: always
+  baby_heap:
+    container_name: baby_heap
+    extends:
+      file: challenges/pwn/baby heap/service/docker-compose.yml
+      service: baby_heap
+    networks:
+    - babyheap-network
+    ports:
+    - 11001:5000
+    profiles:
+    - wave3
+    restart: always
+  buildthepath:
+    build: challenges/web/Build The Path/service/Build The Path
+    container_name: buildthepath
+    networks:
+    - buildthepath-network
+    ports:
+    - 8002:1337
+    profiles:
+    - wave2
+    restart: always
+  cmd_injection:
+    container_name: cmd_injection
+    extends:
+      file: challenges/web/cmd injection/service/docker-compose.yml
+      service: cmd_injection
+    networks:
+    - cmdinjection-network
+    ports:
+    - 8003:5000
+    profiles:
+    - wave2
+    restart: always
+  datealive:
+    build: challenges/misc/DateALive/service/DateALive
+    container_name: datealive
+    networks:
+    - datealive-network
+    ports:
+    - 10000:2222
+    profiles:
+    - wave3
+    restart: always
+  gimme-cookie:
+    build: challenges/web/Gimme Cookie/service/gimme-cookie
+    container_name: gimme-cookie
+    networks:
+    - gimmecookie-network
+    ports:
+    - 8004:1337
+    profiles:
+    - wave3
+    restart: always
+  gimme-flag:
+    build: challenges/misc/Gimme Flag/service/gimme-flag
+    container_name: gimme-flag
+    networks:
+    - gimmeflag-network
+    ports:
+    - 10001:10003
+    profiles:
+    - wave1
+    restart: always
+  gryphons_polytechnic:
+    container_name: gryphons_polytechnic
+    extends:
+      file: challenges/web/Gryphons Polytechnic/service/docker-compose.yml
+      service: gryphons_polytechnic
+    networks:
+    - gryphonspolytechnic-network
+    ports:
+    - 8005:5000
+    profiles:
+    - wave1
+    restart: always
+  helpme:
+    build: challenges/misc/Helpme/service/helpme
+    container_name: helpme
+    networks:
+    - helpme-network
+    ports:
+    - 10002:1337
+    profiles:
+    - wave2
+    restart: always
+  infant_pwn:
+    container_name: infant_pwn
+    extends:
+      file: challenges/pwn/infant pwn/service/docker-compose.yml
+      service: infant_pwn
+    networks:
+    - infantpwn-network
+    ports:
+    - 11002:5000
+    profiles:
+    - wave1
+    restart: always
+  rop_the_night_away:
+    container_name: rop_the_night_away
+    extends:
+      file: challenges/pwn/Rop the Night Away/service/docker-compose.yml
+      service: rop_the_night_away
+    networks:
+    - ropthenightaway-network
+    ports:
+    - 11003:5000
+    profiles:
+    - wave1
+    restart: always
+  shopkeeper:
+    build: challenges/pwn/Shopkeeper/service/service
+    container_name: shopkeeper
+    networks:
+    - shopkeeper-network
+    ports:
+    - 11004:1337
+    profiles:
+    - wave1
+    restart: always
+  silly_cat:
+    build: challenges/web/silly cat hackers/service/app
+    container_name: silly_cat
+    networks:
+    - sillycathackers-network
+    ports:
+    - 8007:1337
+    profiles:
+    - wave3
+    restart: always
+  simple_crypto:
+    build: challenges/crypto/Simple_Crypto/service/server
+    container_name: simple_crypto
+    networks:
+    - simplecrypto-network
+    ports:
+    - 9000:5000
+    profiles:
+    - wave1
+    restart: always
+  testpage:
+    build: challenges/web/TestPage/service/testpage
+    container_name: testpage
+    networks:
+    - testpage-network
+    ports:
+    - 8008:80
+    profiles:
+    - wave3
+    restart: always
+  toddler_pwn:
+    container_name: toddler_pwn
+    extends:
+      file: challenges/pwn/toddler pwn/service/docker-compose.yml
+      service: toddler_pwn
+    networks:
+    - toddlerpwn-network
+    ports:
+    - 11005:5000
+    profiles:
+    - wave2
+    restart: always
+version: '3'

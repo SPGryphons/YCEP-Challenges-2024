@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Bryan"
+category = "misc"
+description = "The haystack just gets bigger and bigger..."
+difficulty = "medium"
+name = "Needle in a Haystack 3"
+files = ["dist\\flags.zip"]
+requirements = ["Needle in a Haystack 2"]
+
+[challenge.extras]
+discord = "juscodin"
+
+[[challenge.flags]]
+flag = "YCEP24{7H3sE_HAYstAcK5_@r3_6eTtIN9_OU7_oF_h4Nd!}"

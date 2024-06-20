@@ -1,0 +1,28 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "gatari"
+category = "pwn"
+description = "I'm tired of being a 0xdeadbeef, please overflow me :("
+difficulty = "easy"
+name = "infant pwn"
+files = ["dist/infant_pwn.zip", "dist/vuln.c"]
+
+[challenge.extras]
+discord = "gatari"
+
+[[challenge.flags]]
+flag = "YCEP24{7he_s7aCK_has_BeEn_sMA$H3d_1c7cfc227d1d426e1405760bdf5d90b4}"
+case_sensitive = false
+
+[[challenge.services]]
+name = "infant_pwn"
+path = "service/infant_pwn"
+port = 5000
+type = "nc"
+
+[challenge.services.extras]

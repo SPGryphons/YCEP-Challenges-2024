@@ -1,0 +1,1 @@
+Solution: The password is hidden using text steganography. The password is the first letter of every sentence, which is "PASSWORD". Use steghide with the password "PASSWORD" to extract the flag from the image

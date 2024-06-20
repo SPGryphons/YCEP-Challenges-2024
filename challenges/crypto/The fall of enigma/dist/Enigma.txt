@@ -1,0 +1,13 @@
+Encrypted text: NAWR24{S0I_O4Q3_HO0B3I_GF3_PT1IZ4_VVU0V1DDC}
+
+Model: 3-rotor
+
+Rotor Order: II, III, IV
+
+Rotor Ring and Initial Value: A,B (II), C,D (III), E,F(IV)
+
+Reflector: B
+
+Plugboard: AV BS CG DL FU HZ IN KM OW RX
+
+No Strict Output

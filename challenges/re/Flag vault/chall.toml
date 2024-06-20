@@ -1,0 +1,29 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Low Yao Wen"
+category = "re"
+description = "I have hidden the flag in this very secured vault. Can you get pass this vault to retrieve the flag?"
+difficulty = "medium"
+name = "Flag vault"
+files = ["dist/flagvault"]
+
+[challenge.extras]
+discord = "Potassium#7933"
+
+[[challenge.flags]]
+flag = "YCEP24{S1ck_R3v3rse_Eng1n33r1ng_Skills}"
+case_sensitive = false
+
+[[challenge.hints]]
+cost = 30
+content = "Use a decompiler (e.g. Ghidra or GDB) to analyze the program"
+
+[[challenge.hints]]
+cost = 30
+content = "Hardcoding credentials is a very bad practice!"
+requirements = [0]

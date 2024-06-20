@@ -1,0 +1,1 @@
+Solution: This python program prompts for an input when executed. Analyse the code carefully, and there is a specific part of the code that uses the input "jce8457bej539csjbhrsjewcjk" to print the flag

@@ -1,0 +1,29 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Low Yao Wen"
+category = "misc"
+description = "My friend has decided to create a javascript CTF challenge. I am unable to solve his challenge as it is javascript, but in Chinese?! Can you help me?"
+difficulty = "medium"
+name = "Non-English Programming"
+files = ["dist/chinese.js"]
+
+[challenge.extras]
+discord = "Potassium#7933"
+
+[[challenge.flags]]
+flag = "YCEP24{Wh4t_A_Pr0gr4mm1ng_Exp3rt_Y0u_Ar3}"
+case_sensitive = false
+
+[[challenge.hints]]
+cost = 50
+content = "How can you convert the Chinese characters to English to make it more readable?"
+
+[[challenge.hints]]
+cost = 50
+content = "The code that is provided is incomplete, if only you could print out the decoded flag somehow.."
+requirements = [0]

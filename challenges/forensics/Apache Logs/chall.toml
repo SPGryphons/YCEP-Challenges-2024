@@ -1,0 +1,23 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Mah Wen Qiang"
+category = "forensics"
+description = "Our website's logs have been acting strange. We suspect a malicious actor may have uploaded a webshell. Dive into the logs and find evidence of their activity. \nThe flag is the IP Address of the user who uploaded the file. E.g. YCEP24{14.31.142.9}"
+difficulty = "easy"
+name = "Apache Logs"
+files = ["dist\\apache.log"]
+
+[challenge.extras]
+discord = "kiraishagaming"
+
+[[challenge.flags]]
+flag = "YCEP24{99.102.58.17}"
+
+[[challenge.hints]]
+cost = 50
+content = "Unexpected PUT Requests: Add PUT requests to directories where uploads shouldn't typically occur..."

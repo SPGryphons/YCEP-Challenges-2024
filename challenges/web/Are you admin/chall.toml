@@ -1,0 +1,31 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Low Yao Wen"
+category = "web"
+description = "Only admin users are able to view the flag"
+difficulty = "easy"
+name = "Are you admin?"
+
+[challenge.extras]
+discord = "Potassium#7933"
+
+[[challenge.flags]]
+flag = "YCEP24{Sql_Inj3ct1on_Is_V3ry_Cr1t1c4l}"
+case_sensitive = false
+
+[[challenge.hints]]
+cost = 50
+content = "SQLi"
+
+[[challenge.services]]
+name = "Are_you_admin"
+path = "service/Are_you_admin"
+port = 4000
+type = "web"
+
+[challenge.services.extras]

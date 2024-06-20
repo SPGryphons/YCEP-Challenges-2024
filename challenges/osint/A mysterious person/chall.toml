@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Low Yao Wen"
+category = "osint"
+description = "I do enjoy watching shows, and spend most of my time on Youtube. Let me share with your a character on one of the shows I've watched, I'll give you the flag if you can correctly guess his name. Oh.. The flag is his name btw. The flag is in the format of YCEP24{Name}, e.g. YCEP24{Harry_Potter}"
+difficulty = "easy"
+name = "A mysterious person"
+files = ["dist/character.jpg"]
+
+[challenge.extras]
+discord = "Potassium#7933"
+
+[[challenge.flags]]
+flag = "YCEP24{Kiyotaka_Ayanokoji}"
+case_sensitive = false
+
+[[challenge.hints]]
+cost = 50
+content = "How can you find out more about a person?"

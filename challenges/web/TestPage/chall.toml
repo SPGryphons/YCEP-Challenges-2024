@@ -1,0 +1,30 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Mah Wen Qiang"
+category = "web"
+description = "Welcome to TestPage, a seemingly simple website. \n(Rumors suggest that its developers were careless, leaving a remarks of their work hidden in plain sight)"
+difficulty = "medium"
+name = "TestPage"
+
+[challenge.extras]
+discord = "kiraishagaming"
+
+[[challenge.flags]]
+flag = "YCEP24{W3_f0rg3t_t0_s37_f1l3_pE7Miss1i0n_nas8s2n2}"
+
+[[challenge.hints]]
+cost = 50
+content = "Familiarize yourself with the standard layout of a Git repository."
+
+[[challenge.services]]
+name = "testpage"
+path = "service/testpage"
+port = 80
+type = "web"
+
+[challenge.services.extras]

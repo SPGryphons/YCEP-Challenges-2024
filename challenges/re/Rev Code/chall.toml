@@ -1,0 +1,19 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Mah Wen Qiang"
+category = "re"
+description = "A careless cryptographer left behind an encrypted flag and a mysterious key. Can you unravel their Fernet folly and decipher the hidden message?"
+difficulty = "easy"
+name = "Rev Code"
+files = ["dist\\Rev Code.zip"]
+
+[challenge.extras]
+discord = "kiraishagaming"
+
+[[challenge.flags]]
+flag = "YCEP24{S1mp13_W4y_7o_r3v3rEs_c06e_mas92narfa}"

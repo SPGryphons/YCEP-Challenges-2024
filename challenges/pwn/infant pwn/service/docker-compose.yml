@@ -1,0 +1,6 @@
+services:
+  infant_pwn:
+    container_name: infant_pwn
+    build: infant_pwn
+    privileged: true
+  

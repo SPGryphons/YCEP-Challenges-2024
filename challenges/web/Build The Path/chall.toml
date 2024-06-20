@@ -1,0 +1,27 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Mah Wen Qiang"
+category = "web"
+description = "Build the right path to the flag :))"
+difficulty = "easy"
+name = "Build The Path"
+files = ["dist\\BuildThePath.zip"]
+
+[challenge.extras]
+discord = "kiraishagaming"
+
+[[challenge.flags]]
+flag = "YCEP24{P4th_tR4v3rs4l_24sft4sgw}"
+
+[[challenge.services]]
+name = "buildthepath"
+path = "service\\Build The Path"
+port = 1337
+type = "web"
+
+[challenge.services.extras]

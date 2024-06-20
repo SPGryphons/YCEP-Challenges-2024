@@ -1,0 +1,1 @@
+Solution: Use a decompiler to analyze the program (e.g. ghidra), from the decompiler, start the auto analysis and then the function "FUN_00105510" will appear, showing the hardcoded password of the flag vault program which is "S3cr3t_pwd". Run the program and input the correct password to get the flag.

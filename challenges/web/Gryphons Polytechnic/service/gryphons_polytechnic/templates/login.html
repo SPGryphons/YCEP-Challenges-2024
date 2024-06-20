@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+</head>
+
+<body>
+    <div style="text-align: center; margin-top: 50px;">
+        <img src="img/gp.png" alt="Logo"
+            style="width: 500px; height: auto; margin-bottom: 20px; display: block; margin-left: auto; margin-right: auto;">
+
+        <form id="loginForm" method="post"
+            style="margin-top: 20px; display: inline-block; width: 320px; text-align: left;">
+            <div style="margin-bottom: 10px;">
+                <label for="username" style="display: block; margin-bottom: 5px; font-weight: bold;">User ID</label>
+                <input type="text" id="username" name="username" placeholder="Enter your User ID"
+                    style="width: 100%; padding: 8px;">
+            </div>
+            <div style="margin-bottom: 20px;">
+                <label for="password" style="display: block; margin-bottom: 5px; font-weight: bold;">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password"
+                    style="width: 100%; padding: 8px;">
+            </div>
+            <div style="text-align: center;">
+                <button type="submit" style="padding: 8px 16px;">Sign in</button>
+            </div>
+            <div id="errorMessage" style="color: red; display: none; margin-top: 10px;">
+                Incorrect username or password.
+            </div>
+        </form>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const loginForm = document.getElementById('loginForm');
+            const errorMessage = document.getElementById('errorMessage');
+
+            loginForm.addEventListener('submit', function (event) {
+                event.preventDefault();
+                const username = document.getElementById('username').value;
+                const password = document.getElementById('password').value;
+
+                fetch('/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        username: username,
+                        password: password
+                    }),
+                    credentials: 'include'
+                })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.json().then(data => {
+                            if (response.status === 200) {
+                                window.location.href = '/dashboard';
+                            } else {
+                                errorMessage.textContent = 'Incorrect username or password';
+                                errorMessage.style.display = 'block';
+                            }
+                            return data;
+                        });
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        errorMessage.textContent = 'Login failed. Please try again.';
+                        errorMessage.style.display = 'block';
+                    });
+            });
+        });
+    </script>
+</body>
+
+</html>

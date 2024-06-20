@@ -1,0 +1,28 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "gatari"
+category = "web"
+description = "10x engineers generate 10x the work for everyone else\n\ndummy credentials ->\nusername: P230021\n\npassword: password"
+difficulty = "hard"
+name = "Gryphons Polytechnic"
+files = ["dist/gryphons_polytechnic.zip"]
+
+[challenge.extras]
+discord = "gatari"
+
+[[challenge.flags]]
+flag = "YCEP24{grypH0n$_5H0uLD_s7op_0v3RenGINeerIN9_57905b25b373280b814fa8c6826aceb5}"
+case_sensitive = false
+
+[[challenge.services]]
+name = "gryphons_polytechnic"
+path = "service/gryphons_polytechnic"
+port = 5000
+type = "web"
+
+[challenge.services.extras]

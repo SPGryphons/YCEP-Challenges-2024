@@ -1,0 +1,23 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Settipalli Venkata Krishna"
+category = "forensics"
+description = "There are twelve images of clocks with different times displayed on them. The flag constitutes of twelve letters, and each letter is hidden in each image through steganography. The order of the letters is hidden according to the time on the clock. 12 o clock comes before 1 o clock. For example, in the image where the clock displays 6 o clock, the letter hidden is the seventh letter. The flag is in the format of YCEP24{123456789101112}, where the numbers represent the letter. You may buy a hint to get a link to an online tool to decode the images."
+difficulty = "easy"
+name = "Simple Steganography"
+files = ["dist\\clocks.zip"]
+
+[challenge.extras]
+discord = "the_gold_graduate"
+
+[[challenge.flags]]
+flag = "YCEP24{SteGaNofLaGs}"
+
+[[challenge.hints]]
+cost = 100
+content = "The online tool is https://stylesuxx.github.io/steganography/"

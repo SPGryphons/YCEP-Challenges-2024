@@ -1,0 +1,27 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Mah Wen Qiang"
+category = "web"
+description = "This mischievous Flask application seems to have a jinx on its Jinja templating. Can you exploit its magical vulnerability to conjure up the hidden flag?"
+difficulty = "medium"
+name = "Jinja Jinx"
+files = ["dist\\Jinja Jinx.zip"]
+
+[challenge.extras]
+discord = "kiraishagaming"
+
+[[challenge.flags]]
+flag = "YCEP24{s$1i_J1nj42_1n7eC7i0n_jsj9nn39a2}"
+
+[[challenge.services]]
+name = "JinjaJinx"
+path = "service\\Jinja Jinx"
+port = 5000
+type = "web"
+
+[challenge.services.extras]

@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Low Yao Wen"
+category = "forensics"
+description = "Agent Shark intercepted a network packet and sent it to me. What I heard him said was \"Wireshark doo doo doo doo...\", I wonder what is he trying to say?"
+difficulty = "easy"
+name = "Agent Shark on a mission"
+files = ["dist/flag.pcapng"]
+
+[challenge.extras]
+discord = "Potassium#7933"
+
+[[challenge.flags]]
+flag = "YCEP24{W1r3sh4rk_P4ck3t_An4lys1s_1s_Fun}"
+case_sensitive = false
+
+[[challenge.hints]]
+cost = 50
+content = "Packet analysis tool"

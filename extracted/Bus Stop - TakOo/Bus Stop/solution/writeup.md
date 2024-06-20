@@ -1,0 +1,1 @@
+This is stop ID 34009(Police Coast Guard) at the end of Lim Chu Kang Road. All images are property of google.

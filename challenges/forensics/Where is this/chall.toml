@@ -1,0 +1,23 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Tok Jie En Xavion"
+category = "forensics"
+description = "Don't jump :)"
+difficulty = "easy"
+name = "Where is this?"
+files = ["dist\\redbridge.jpg"]
+
+[challenge.extras]
+discord = "zayveeon"
+
+[[challenge.flags]]
+flag = "YCEP24{r3dbr1gd3}"
+
+[[challenge.hints]]
+cost = 0
+content = "Press enter when asked for a passphrase in Steghide"

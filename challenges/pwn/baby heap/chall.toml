@@ -1,0 +1,28 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "gatari"
+category = "pwn"
+description = "if the stack is so smashable, why don't we use the heap then? :thonk:"
+difficulty = "hard"
+name = "baby heap"
+files = ["dist/baby_heap.zip", "dist/vuln.c"]
+
+[challenge.extras]
+discord = "gatari"
+
+[[challenge.flags]]
+flag = "YCEP24{7h3_HEaP_c@N_@lSo_B3_$mA5hED!!_ba208e6198f6930850a0f312b891cde6}"
+case_sensitive = false
+
+[[challenge.services]]
+name = "baby_heap"
+path = "service/baby_heap"
+port = 5000
+type = "nc"
+
+[challenge.services.extras]

@@ -1,0 +1,23 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Ng Li Ling"
+category = "forensics"
+description = "The image captures a tranquil night sky filled with twinkling stars. Amidst the celestial expanse, subtle patterns of dots and dashes emerge, almost blending with the natural star formations. These intricate sequences hint at a hidden message woven into the fabric of the universe, inviting a deeper exploration.\nExample flag format: YCEP24{s0m3th1ng_n3w}"
+difficulty = "easy"
+name = "Space"
+files = ["dist\\space.jpg"]
+
+[challenge.extras]
+discord = "inver4"
+
+[[challenge.flags]]
+flag = "YCEP24{m0rs3_3nc0dIng}"
+
+[[challenge.hints]]
+cost = 0
+content = "Google"

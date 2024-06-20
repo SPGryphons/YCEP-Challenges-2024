@@ -1,0 +1,23 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use chall-architect instead.
+
+version = "0.1"
+
+[challenge]
+author = "Elvin"
+category = "forensics"
+description = "I've hidden a treat in this picture, can you find it?"
+difficulty = "medium"
+name = "Finding Treats"
+files = ["dist/woof.jpg"]
+
+[challenge.extras]
+discord = "_ex7r4ct"
+
+[[challenge.flags]]
+flag = "YCEP24{H3r3sYourTre4t}"
+
+[[challenge.hints]]
+cost = 100
+content = "Use exiftool and steghide"
