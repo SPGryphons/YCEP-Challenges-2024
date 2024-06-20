@@ -1,1 +1,0 @@
-I am El? You are El? What's going on? It seems something has happened twice.
